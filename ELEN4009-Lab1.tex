@@ -1,0 +1,114 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                              %
+%                     ELEN4009 - Software Engineering                          %
+%                                                                              %
+%                        Laboratory Exercise No 1                              %
+%                                                                              %
+%             Julio Baeta (710066), Nomakhosi Ndebele (671480),                %
+%             Ryan Robinson (453764),Timothy Rokebrand (458960)                %
+%                                                                              %
+%          This LaTeX document was adapted from the IEEE template,             %
+%                           which can be found at:                             %  % http://www.ieee.org/conferences_events/conferences/publishing/templates.html %
+%                                                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[journal,comsoc]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title{ELEN4009 - SOFTWARE ENGINEERING\\ LABORATORY EXERCISE 1}
+
+\author{\vspace{3mm} Julio Baeta (710066), Nomakhosi Ndebele (671480), Ryan Robinson (453764), Timothy Rokebrand (458960)\\ \small \vspace{2mm} School of Electrical \& Information Engineering, University of the Witwatersrand, Private Bag 3, 2050, Johannesburg, South Africa
+}
+
+% The paper headers
+\markboth{}{}
+
+\maketitle
+
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\IEEEpeerreviewmaketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROJECT DESCRIPTION}
+
+The project undertaken by the group will be the ``Postgraduate Approval Process for EIE'' (project number 1). The objective of the project is to improve upon the already existing system, by moving from a paper documentation format towards a completely digital approach. This would be beneficial, in that the process would become far more efficient in terms of time spent on each application and reducing the possibility of documentation being misplaced. The system would, in theory, be integrated into the school's existing website. It would allow for a simpler application process by allowing the applicant to enter as few details as possible, ideally the student number and intended area of study. It will also simplify the process for the administrative staff by providing all of the necessary information of the applicant needed to make a decision.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Front End (Nomakhosi Ndebele and Timothy Rokebrand)}
+
+The front end of the project will involve the user interface that will be engaged with by the applicant and the administrative staff. \vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Applicant Interface}
+
+\hfill \break At the beginning of the process, the applicant will be required to enter their student number and a password that has been assigned to them previously. Following this, the applicant will be required to select their branch of choice (Electrical or Information Engineering). The applicant will then need to select whether they will be applying for the Masters program (full time or part time, by research or by course work) or for the PhD program. Depending on this choice, the applicant will either select their project or courses of choice. The applicant will then be required to submit their proposal and curriculum vitae (CV). Following the initial process, the applicant will subsequently be able to access a page that will update them on the status of their application. \vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Administrative Staff Interface}
+
+\hfill \break Once a supervisor or course coordinator logs into the system, they will see a list of applications that are relevant to their field of work. From here, they will be able to access all of the information pertaining to the students that have applied for a course or project that will involve them (such as academic records and the proposal submitted to them by the applicant). From there, they will be able to make their decision as to whether they would like to approve or reject the student's application. This information will then be sent to the head of school for the final decision. This decision will then be passed on to the faculty office and the applicant will be notified of the outcome of their application.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Back End (Julio Baeta and Ryan Robinson)}
+
+The back end is simply a database that stores all of the information pertaining to all of the applicants to the postgraduate program. \vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Student Information Database}
+
+\hfill \break This area will include all of the information pertaining to the applicant, such as the grades obtained throughout their undergraduate program, personal information (contact details and demographic information), their proposal as well as their CV. When the student enters their details, this information needs to be stored on the school's database. This information needs to be readily available when the administrative staff reviews an application. Any information that either the student or staff may enter must be stored within the database coherently. It must be ensured that this information is only available to the relevant people. In other words, a student may not be able to access any information that is not relevant to them.\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{USER INPUT AND EXPECTED OUTPUTS}
+
+When considering the workings of a program, it is important to note what exactly the inputs and outputs of the program will be.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Applicant}
+
+The inputs given by the student will be their application, including their proposal and CV. The output will be the result of their application process, including comments and reasoning for the choice.
+\\ \\ The input for the administrative staff will be the application from the student. The output will be the decision as to whether the student has been approved or rejected for their program of choice.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{GITHUB - LOGIN DETAILS}
+
+In order to obtain a local copy of the group's repository from GitHub, one should open the terminal in the Ubuntu operating system. Then the following command should be typed: \\ \\
+'git clone https://github.com/SoftwareEngGroup17/Project1.git' \\ \\
+This will copy the contents of the repository folder from GitHub on to the home directory on the computer being used.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Conclusion}
+%The conclusion goes here.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{thebibliography}{1}
+
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+%\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
