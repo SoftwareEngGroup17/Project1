@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                              %
+%                     ELEN4009 - Software Engineering                          %
+%                                                                              %
+%                           Software Design                                    %
+%                                 for                                          %
+%         The Online Postgraduate Application Approval System for EIE          %
+%                                                                              %
+%             Julio Baeta (710066), Nomakhosi Ndebele (671480),                %
+%             Ryan Robinson (453764),Timothy Rokebrand (458960)                %
+%                                                                              %
+%          This LaTeX document was adapted from the IEEE template,             %
+%                           which can be found at:                             %
+% http://www.ieee.org/conferences_events/conferences/publishing/templates.html %
+%                                                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[journal,comsoc,onecolumn]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Software Design \\ \vspace{7mm} for \\ \vspace{7mm} The Online Postgraduate Application \\ Approval System for EIE}
+
+\author{\vspace{3mm} Julio Baeta (710066), Nomakhosi Ndebele (671480), Ryan Robinson (453764), Timothy Rokebrand (458960)\\ \small \vspace{2mm} School of Electrical \& Information Engineering, University of the Witwatersrand, Private Bag 3, 2050, Johannesburg, South Africa}
+
+\markboth{}{}
+
+\maketitle
+
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\thispagestyle{empty}
+
+\section{SOFTWARE DESIGN}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{SEPARATE SOFTWARE MODULES (BACK-END AND FRONT-END)}
+The software to be implemented for the Online Postgraduate Application system can be divided into two separate modules, namely:
+
+\begin{itemize}
+	\item The front end module: This aspect will deal with the layout and presentation of the various web pages, how the user is able to navigate between the pages as well as how information is displayed on the pages.
+	\item The back end module: This aspect will handle all of the data that is required by the system. This includes a database for storing all information relevant to the applying student as well as a text database for storing the student's required documentation.
+\end{itemize}
+
+\hfill \break Both of these modules would need to be carefully designed and planned out to ensure that a successful final product could be implemented with the initial framework put into place by the development team. As such, an analysis of both individual models is carried out herein.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{THE FRONT-MODULE}
+
+The user interface module of the system will be run through a web browser. This will be implemented by making use of the hypertext markup language HTML5. The styling of the various web pages, including different fonts and layouts, was achieved through the use of Cascading Style Sheets (CSS).
+
+\hfill \break The front-end of the software allows the user to navigate through a series of pages. These include a login page (where it will be established which user is viewing the system and hence what pages they are allowed to see), a homepage, an applicant list (where a list of all applicants to the postgraduate programme will be displayed) as well as an applicant information page (where all specific information pertaining to a particular student as well as access to their relevant documentation in PDF format will be displayed). Navigation through these pages is achieved through hyperlinks. All information displayed to the screen from the applicant list page and the applicant information page is obtained from the created databases. \break
+
+FLOW DIAGRAM
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{THE BACK-END MODULE}
+
+As stated above, this module makes use of two database management systems (DBMSs). The database used for all information relevant to the student is MySQL. This information includes:
+
+\begin{itemize}
+	\item Name and surname
+	\item Person number
+	\item Contact number
+	\item Potential supervisor
+	\item Undergraduate university
+	\item Program of study (within the field of either electrical or information engineering)
+	\item Approval status (either pending, approved or rejected)
+\end{itemize}
+
+\hfill \break The database used for all of the applicant's personal documentation will be Solr. These documents will include:
+
+\begin{itemize}
+	\item Academic transcripts
+	\item Certificate(s) of qualification
+	\item Curriculum vitae (CV)
+	\item ID document
+\end{itemize}
+
+\hfill \break In order for these databases to be able to function correctly with the front-end module, the HTTP (web) server software Apache and the server-side scripting language PHP must be installed on the user's computer.
+
+\hfill \break The front-end will request information from the information database in the form of select queries. The back-end will subsequently return the requested information of the student in question by extracting it from the student information table. The front-end will also be able to request certain documentation relevant to the student, and this was initially planned to be achieved through the Solr database management system. However, this was not achieved in the final system produced, since the PDFs are actually accessed through the project's directory for the final product.
+
+\break FLOW DIAGRAM
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{SYSTEM ARCHITECTURE}
+
+The architecture of the system will be two-tier in nature. This is due to the fact that very little data processing will be taking place. The primary functionality of the system will be data retrieval and, to a lesser extent, data modification. The absence of a significant data processing module implies that the system will only be two-tiered, since a third tier would be comprised of the data processing tier.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
