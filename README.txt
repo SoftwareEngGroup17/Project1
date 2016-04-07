@@ -1,7 +1,7 @@
 How to get git repository
 
 Enter into terminal
-git clone (Given HTTP address for repository)
+git clone (Given HTTP address for repository in sakai)
 git checkout documents
 
-Read the README.txt in Lab3 for infomation about the code
+Read the README.txt in Lab3 for instructions about the code
