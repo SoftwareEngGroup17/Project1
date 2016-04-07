@@ -106,10 +106,10 @@ When the "More Info" option is selected, a detailed record of the particular app
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{FUTURE DEVELOPMENT}
-In future versions, the user will navigate from the Applicant Information page to a Decisions page. Here, the supervisor will be able to approve or reject the application and give comments on their decision. These comments will then be passed to the back-end. \\\\
-No security was implemented and this makes the application very risky to use\\\\
-Solr was implemented in a limited manner as an extra program needs to be implemented to transfrom rich edit files in this case a pdf into an appropriate format. Once this is acheived the student id could be passed to solr in a select query to obtain the relevent pdf. Solr's full text searching would also allow for students to be corectly located based on terms contained in their pdfs.\\\\
-
+In future versions, the user will navigate from the Applicant Information page to a Decisions page. Here, the supervisor will be able to approve or reject the application and give comments on their decision. These comments will then be passed to the back-end. The back-end will make use of an update query to correctly modify the respective applicant's status. \\\\
+Solr was implemented in a limited manner as an extra program needs to be implemented to transfrom rich edit files in this case a pdf into an appropriate format. Once this is acheived the applicant id can be passed to solr in a select query to obtain the relevent pdf. Solr's full text searching would also allow for students to be corectly located based on terms contained in their pdfs, making searching for applicant's based on submitted documents a viable option.\\\\
+No security was implemented and this makes the application very risky to use. Solr is compatible with TLS and thus data and postgraduate officer login details can be encrypted in the future without significant changes to the source code. A system needs to be included that the postgraduate officer will only recieve the students that they are meant to have access to. This can be acheived by passing the supervisor's name as a parameter for the conditional select query that populates the applicant list page. The course co-ordinator and admin staff will by default have access to all entries.\\\\
+Ideally Solr/Lucene will replace MySQL as the main database of the system. MySQL was used for prototyping as the table consists of a few entries and SQL is more simple language allowing for quicker construction of a functional application.
  
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
