@@ -51,7 +51,7 @@ The first page is the login page, although not functional at this point in time 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\linewidth]{loginpage}
-\caption{}
+\caption{Login Page}
 \label{fig:loginpage}
 \end{figure}
 
@@ -61,7 +61,7 @@ The next page is the home screen, extra information can be added in order to ass
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{home}
-	\caption{}
+	\caption{Home Page}
 	\label{fig:home}
 \end{figure}
 \section{APPLICANT LIST}
@@ -70,19 +70,32 @@ The Applicant list shows a list of applicants that are in the process of having 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\linewidth]{list}
-\caption{}
+\caption{List Of All Applicants}
 \label{fig:list}
 \end{figure}
 
+The student\_information table was created and then populated with insert query to look like below
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{mysql}
+\caption{Student\_Information Table In My SQL}
+\label{fig:mysql}
+\end{figure}
+
+\newpage
 \section{APPLICANT INFORMATION}
 When "More info" is selected the Applicant's information is displayed. The specific individual's is displayed; this is done by getting the relevant postgraduates id which is passed to the page though a GET request. The id is used to modify the select query for the database so that only the specific information is retrieved. 
 
-\begin{figure}
+\begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{info}
-\caption{}
-\label{fig:info}
+\includegraphics[width=0.7\linewidth]{information}
+\caption{An Applicant's Information Page}
+\label{fig:information}
 \end{figure}
+
+
+
 
 
 \section{FUTURE DEVELOPMENT}
