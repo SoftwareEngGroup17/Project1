@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  25 FEB 2016 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  7 APR 2016 15:05
 entering extended mode
-**./ELEN4009-Lab1.tex
-(ELEN4009-Lab1.tex
+**./ELEN4009-Software_Requirements_Specification.tex
+(ELEN4009-Software_Requirements_Specification.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 (C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
@@ -21,6 +21,7 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using IEEE Communications Society mode.
+** ATTENTION: Single column mode is not typically used with IEEE publications.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen105
@@ -124,21 +125,32 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
-(ELEN4009-Lab1.aux)
-\openout1 = `ELEN4009-Lab1.aux'.
+(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip44
+\f@ncyO@elh=\skip45
+\f@ncyO@erh=\skip46
+\f@ncyO@olh=\skip47
+\f@ncyO@orh=\skip48
+\f@ncyO@elf=\skip49
+\f@ncyO@erf=\skip50
+\f@ncyO@olf=\skip51
+\f@ncyO@orf=\skip52
+)
+(ELEN4009-Software_Requirements_Specification.aux)
+\openout1 = `ELEN4009-Software_Requirements_Specification.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 -- Verifying Times compatible math font.
 ** Times compatible math font not found, forcing.
@@ -149,7 +161,7 @@ Package: newtxmath 2016/01/31 v1.465
 `newtxmath' v1.465, 2016/01/31 Math macros based on txfonts (msharpe)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -199,8 +211,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen133
 \lineht@=\dimen134
 \@envbody=\toks18
-\multlinegap=\skip45
-\multlinetaggap=\skip46
+\multlinegap=\skip54
+\multlinetaggap=\skip55
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
@@ -302,103 +314,110 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
 LaTeX Info: Redefining \not on input line 1749.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <17> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 24.
 
 -- Lines per column: 58 (exact).
+[1{C:/Users/Ryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(ELEN4009-Software_Requirements_Specification.toc
+LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 2
+.
 
-Underfull \hbox (badness 1558) in paragraph at lines 72--73
-\T1/ptm/m/n/10 re-views an ap-pli-ca-tion. Any in-for-ma-tion that ei-ther the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
-
- []
+(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\ot1ntxtlf.fd
+File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
+)
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 2.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
-
- []
-
-
-Overfull \hbox (3.75708pt too wide) in paragraph at lines 91--94
-\T1/ptm/m/n/10 'git clone https://github.com/SoftwareEngGroup17/Project1.git' 
- []
+(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 2.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--94
+(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\omsntxsy.fd
+File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
+)
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 2.
 
- []
+(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxmia.fd
+File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 2.
 
+(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 2.
 
-Underfull \hbox (badness 3919) in paragraph at lines 91--94
-\T1/ptm/m/n/10 This will copy the con-tents of the repos-i-tory folder
- []
+(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 2.
 
-[1{C:/Users/Ryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+))
+\tf@toc=\write3
+\openout3 = `ELEN4009-Software_Requirements_Specification.toc'.
 
-
-] [2
-
-]
-(ELEN4009-Lab1.aux) ) 
+ [2]
+[3] [4] [5] [6] [7] [8] (ELEN4009-Software_Requirements_Specification.aux) ) 
 Here is how much of TeX's memory you used:
- 3050 strings out of 493634
- 41101 string characters out of 3141317
- 98232 words of memory out of 3000000
- 6451 multiletter control sequences out of 15000+200000
- 102614 words of font info for 101 fonts, out of 3000000 for 9000
+ 3324 strings out of 493634
+ 45763 string characters out of 3141317
+ 97336 words of memory out of 3000000
+ 6681 multiletter control sequences out of 15000+200000
+ 117071 words of font info for 129 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,4n,22p,875b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontnam
-e/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ELEN4009-Lab1.pdf (2 pages, 37787 bytes).
+ 36i,10n,43p,447b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:
+/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/Ryan/
+AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on ELEN4009-Software_Requirements_Specification.pdf (8 pages, 60
+291 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

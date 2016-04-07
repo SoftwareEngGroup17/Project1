@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  10 MAR 2016 18:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  7 APR 2016 15:54
 entering extended mode
-**./ELEN4009-Lab2.tex
-(ELEN4009-Lab2.tex
+**./ELEN4009-Lab1.tex
+(ELEN4009-Lab1.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 (C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
@@ -124,8 +124,8 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
-(ELEN4009-Lab2.aux)
-\openout1 = `ELEN4009-Lab2.aux'.
+(ELEN4009-Lab1.aux)
+\openout1 = `ELEN4009-Lab1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -344,115 +344,47 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
 
 -- Lines per column: 58 (exact).
 
-Underfull \hbox (badness 1533) in paragraph at lines 42--43
-\T1/ptm/m/n/10 School's page. The ap-pli-ca-tion is first as-sessed by the
+Underfull \hbox (badness 1558) in paragraph at lines 72--73
+\T1/ptm/m/n/10 re-views an ap-pli-ca-tion. Any in-for-ma-tion that ei-ther the
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 42--43
-\T1/ptm/m/n/10 post-grad-u-ate of-fi-cer (Ms. Adam) to en-sure that all the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 65--66
-\T1/ptm/m/n/10 per-tain-ing to the stu-dent such as their name, stu-dent
- []
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 65--66
-\T1/ptm/m/n/10 num-ber, aca-demic his-tory and con-tact de-tails. For the
- []
-
-
-Underfull \hbox (badness 3815) in paragraph at lines 65--66
-\T1/ptm/m/n/10 course of this project, the as-sump-tion will be made
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 65--66
-\T1/ptm/m/n/10 present on the uni-ver-sity's database. This im-plies that
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 65--66
-\T1/ptm/m/n/10 the stu-dent's in-for-ma-tion has al-ready been en-tered by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-\T1/ptm/m/n/10 the Wits Stu-dents In-for-ma-tion Man-age-ment Sys-tem
- []
-
-
-Underfull \hbox (badness 2142) in paragraph at lines 65--66
-\T1/ptm/m/n/10 (SIMS) once an ap-pli-ca-tion has been re-ceived by the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-\T1/ptm/m/n/10 School of Elec-tri-cal and In-for-ma-tion En-gi-neer-ing. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
 
-Underfull \hbox (badness 5519) in paragraph at lines 74--75
- \T1/ptm/m/it/10 2) Doc-u-ment Stor-age Database (Julio Baeta): [][] \T1/ptm/m/
-n/10 This
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
+
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (3.75708pt too wide) in paragraph at lines 91--94
+\T1/ptm/m/n/10 'git clone https://github.com/SoftwareEngGroup17/Project1.git' 
+ []
 
- [1{C:/Users/Ryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
+
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 91--94
+\T1/ptm/m/n/10 This will copy the con-tents of the repos-i-tory folder
+ []
+
+[1{C:/Users/Ryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+] [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
-
- []
-
-
-Underfull \hbox (badness 2229) in paragraph at lines 88--89
-\T1/ptm/m/n/10 Bloat and It’s Per-for-mance Ef-fects. Avail-able from:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-\T1/ptm/m/n/10 http://justinvoelkel.me/problem-solved- wp-options- table-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 90--91
-[]\T1/ptm/m/n/10 [2] The Apache Soft-ware Foun-da-tion. Solr Fea-tures.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-\T1/ptm/m/n/10 Avali-able from: http://lucene.apache.org/solr/features.html.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-[2
-
-] (ELEN4009-Lab2.aux) ) 
+(ELEN4009-Lab1.aux) ) 
 Here is how much of TeX's memory you used:
  3050 strings out of 493634
  41101 string characters out of 3141317
@@ -460,11 +392,11 @@ Here is how much of TeX's memory you used:
  6451 multiletter control sequences out of 15000+200000
  102614 words of font info for 101 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,4n,22p,974b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontn
-ame/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ELEN4009-Lab2.pdf (2 pages, 39599 bytes).
+ 36i,4n,22p,875b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontnam
+e/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ELEN4009-Lab1.pdf (2 pages, 37787 bytes).
 PDF statistics:
  18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

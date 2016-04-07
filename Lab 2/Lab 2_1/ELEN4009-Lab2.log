@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  10 MAR 2016 18:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  7 APR 2016 15:54
 entering extended mode
-**./ELEN4009-Lab22.tex
-(ELEN4009-Lab22.tex
+**./ELEN4009-Lab2.tex
+(ELEN4009-Lab2.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 (C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
@@ -21,7 +21,6 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using IEEE Communications Society mode.
-** ATTENTION: Single column mode is not typically used with IEEE publications.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen105
@@ -125,8 +124,8 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
-(ELEN4009-Lab22.aux)
-\openout1 = `ELEN4009-Lab22.aux'.
+(ELEN4009-Lab2.aux)
+\openout1 = `ELEN4009-Lab2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -344,361 +343,111 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
 
 -- Lines per column: 58 (exact).
-[1{C:/Users/Ryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 1
-33.
 
-(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\ot1ntxtlf.fd
-File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
-)
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 13
-3.
-
-(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\omlntxmi.fd
-File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
-)
-LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 13
-3.
-
-(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\omsntxsy.fd
-File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
-)
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 133
-.
-
-(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxmia.fd
-File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
-)
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 133
-.
-
-(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxsym.fd
-File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 133
-.
-
-(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxsyc.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 133
-.
-
-(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxexa.fd
-File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
-)
-Overfull \hbox (272.91762pt too wide) in paragraph at lines 133--136
-[]$\OML/ntxmi/m/it/10 Thissoftwarerequirementsspecificationsreportwasbasedonthe
-followingreports \OT1/ntxtlf/m/n/10 : [1]\OML/ntxmi/m/it/10 Spyridonos; P:\U/nt
-xmia/m/it/10 }\OT1/ntxtlf/m/n/10 2010\U/ntxmia/m/it/10 ~\OML/ntxmi/m/it/10 :Sof
-twareRequirementsSpecificationforPDFSplitandMerge:Available \OT1/ntxtlf/m/n/10 
-:$
+Underfull \hbox (badness 1533) in paragraph at lines 50--51
+\T1/ptm/m/n/10 School's page. The ap-pli-ca-tion is first as-sessed by the
  []
 
-[3
-! Font \csname\endcsname=txmi at 10.0pt not loadable: Metric (TFM) file not fou
-nd.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.155 \end{document}
-                    
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
 
-Missing character: There is no T in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no q in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no : in font nullfont!
-! Font \csname\endcsname=txmia at 10.0pt not loadable: Metric (TFM) file not fo
-und.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.155 \end{document}
-                    
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
+Underfull \hbox (badness 1490) in paragraph at lines 50--51
+\T1/ptm/m/n/10 post-grad-u-ate of-fi-cer (Ms. Adam) to en-sure that all the
+ []
 
-! Font \csname\endcsname=txsyc at 10.0pt not loadable: Metric (TFM) file not fo
-und.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.155 \end{document}
-                    
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
 
-! Font \csname\endcsname=txr at 10.0pt not loadable: Metric (TFM) file not foun
-d.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.155 \end{document}
-                    
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
-! Font \csname\endcsname=txsyb at 10.0pt not loadable: Metric (TFM) file not fo
-und.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.155 \end{document}
-                    
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
+ []
 
-! Font \csname\endcsname=zxxrl7z at 10.0pt not loadable: Metric (TFM) file not 
-found.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.155 \end{document}
-                    
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
 
-Missing character: There is no : in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no q in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no D in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no D in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-! Font \csname\endcsname=txsy at 10.0pt not loadable: Metric (TFM) file not fou
-nd.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.155 \end{document}
-                    
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
+Underfull \hbox (badness 2401) in paragraph at lines 75--76
+[]\T1/ptm/m/n/10 The database man-age-ment sys-tem that will be used
+ []
 
-Missing character: There is no   in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no   in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no   in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no : in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no : in font nullfont!
-] (ELEN4009-Lab22.aux) ) 
+
+Underfull \hbox (badness 6758) in paragraph at lines 75--76
+\T1/ptm/m/n/10 for the stu-dent's in-for-ma-tion will be MySQL. This
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+\T1/ptm/m/n/10 database man-age-ment sys-tem will also be used in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+\T1/ptm/m/n/10 con-junc-tion with Apache web-server soft-ware. Since
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+\T1/ptm/m/n/10 the web-page (user) in-ter-face or the 'front-end' of
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 75--76
+\T1/ptm/m/n/10 the sys-tem will be mak-ing use of Hy-per-Text Markup
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+\T1/ptm/m/n/10 Lan-guage (HTML), the script-ing lan-guage Hy-per-text
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+[1{C:/Users/Ryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+\T1/ptm/m/n/10 Bloat and It's Per-for-mance Ef-fects. Avail-able from:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+\T1/ptm/m/n/10 http://justinvoelkel.me/problem-solved- wp-options- table-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 103--104
+[]\T1/ptm/m/n/10 [2] The Apache Soft-ware Foun-da-tion. Solr Fea-tures.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+\T1/ptm/m/n/10 Avali-able from: http://lucene.apache.org/solr/features.html.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[2
+
+] (ELEN4009-Lab2.aux) ) 
 Here is how much of TeX's memory you used:
- 3198 strings out of 493634
- 43967 string characters out of 3141317
- 95278 words of memory out of 3000000
- 6555 multiletter control sequences out of 15000+200000
- 113438 words of font info for 129 fonts, out of 3000000 for 9000
+ 3050 strings out of 493634
+ 41101 string characters out of 3141317
+ 99232 words of memory out of 3000000
+ 6451 multiletter control sequences out of 15000+200000
+ 102614 words of font info for 101 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,4n,22p,417b,104s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Ryan/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvi
-ps/newtx/ntx-ot1-tlf.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fon
-tname/8r.enc}
-!pdfTeX error: pdflatex.exe (file qtmr.pfb): cannot open Type 1 font file for r
-eading
- ==> Fatal error occurred, no output PDF file produced!
+ 36i,4n,22p,1019b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontn
+ame/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ELEN4009-Lab2.pdf (2 pages, 40889 bytes).
+PDF statistics:
+ 18 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

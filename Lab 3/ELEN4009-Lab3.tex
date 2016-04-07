@@ -1,0 +1,95 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                              %
+%                     ELEN4009 - Software Engineering                          %
+%                                                                              %
+%                        Laboratory Exercise No 1                              %
+%                                                                              %
+%             Julio Baeta (710066), Nomakhosi Ndebele (671480),                %
+%             Ryan Robinson (453764),Timothy Rokebrand (458960)                %
+%                                                                              %
+%          This LaTeX document was adapted from the IEEE template,             %
+%                           which can be found at:                             %
+% http://www.ieee.org/conferences_events/conferences/publishing/templates.html %
+%                                                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[journal,comsoc]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title{ELEN4009 - SOFTWARE ENGINEERING\\ LABORATORY EXERCISE 3}
+
+\author{\vspace{3mm} Julio Baeta (710066), Nomakhosi Ndebele (671480), Ryan Robinson (453764), Timothy Rokebrand (458960)\\ \small \vspace{2mm} School of Electrical \& Information Engineering, University of the Witwatersrand, Private Bag 3, 2050, Johannesburg, South Africa
+}
+
+% The paper headers
+\markboth{}{}
+
+\maketitle
+
+\thispagestyle{empty}
+\pagestyle{empty}
+
+\IEEEpeerreviewmaketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{SIMPLE PROTOTYPE AND GITHUB REPOSITORY}
+
+For the final submission, a simple prototype of the final software produce by the development team was required to be submitted. As such, this can be found within the development team's Git repository that has been used for the project, which can be found at: 'https://github.com/SoftwareEngGroup17/Project1.git'.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{EXPANDED DESCRIPTION OF PROJECT}
+
+The final software system produced was a very high-end version of a product that could potentially be used by the School of Electrical and Information Engineering as their postgraduate application system. Basic information for each student was readily available from the 'Applicant's List' page, and specific information pertaining to each student could be accessed from the 'Applicant Info' page for each student. This was achieved through the MySQL database system. Documentation relevant to each applicant (including CVs, academic transcripts and application forms) is able to be retrieved from each applicant's specific page. However, this was not achieved through Solr (as initially planned), due to the final Solr implementation not functioning as expected. It should be noted that only dummy PDFs were used for this purpose, due to time constraints of the project.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{FRONT-END AND BACK-END RESPONSIBILITIES}
+
+\hfill \break Both the front end and back end teams were involved in the final integration of the software. This implies creating the connection that needed to be made between the web pages (that would be viewed by the user) and the databases (that would contain information and documentation relevant to the applying student). \vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Front End (Nomakhosi Ndebele and Timothy Rokebrand)}
+
+The front end team ensured that the web pages being viewed when a user is operating the software functioned correctly and were aesthetically pleasing. The front end team were also required to ensure that all links functioned as expected and that all information retrieved from the databases was displayed in a readable manner. \vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Back End (Julio Baeta and Ryan Robinson)}
+
+The back end team created two database systems, namely an information database system (for storing all of the applicant's details) as well as a documentation database system (for storing all documents relevant to the applying student). \vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{COMPILING OF CODE AND STARTING OF MODULES}
+
+\hfill \break Read the included README.txt for instructions on what applications and packages to install and how to set up everything so a working prototype system is functioning. A basic user guide is included in the text file.
+\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{SOFTWARE REQUIRED TO BE INSTALLED}
+
+In order to allow for the designed software to run on the user's computer, a number of software applications should be installed on the system. These include: \vspace{2mm}
+\begin{itemize}
+	\item An HTML-enabled web browser
+	\item CSS (styling sheet language)
+	\item Apache (web server software)
+	\item PHP (server-side scripting language)
+	\item MySQL (information database system)
+	\item Solr (text database system)
+	\item JDBC (java database connector for importing the MySQL database into Solr)
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

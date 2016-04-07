@@ -1,0 +1,11 @@
+
+<dataConfig>
+  <dataSource type="JdbcDataSource"
+            driver="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/students"
+            user="root"
+            password="Julbay1643!" /> 
+  <document>
+    <entity name="id" query="select id as 'id', name_and_surname as 'name', student_number as 'number', contact_number as 'contact', potential_supervisor 'supervisor', undergraduate_university as 'university', program as 'program' from student_information limit 1000;" />
+  </document>
+</dataConfig>

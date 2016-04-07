@@ -1,0 +1,189 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                              %
+%                     ELEN4009 - Software Engineering                          %
+%                                                                              %
+%                   Software Requirements Specification                        %
+%                                 for                                          %
+%         The Online Postgraduate Application Approval System for EIE          %
+%                                                                              %
+%             Julio Baeta (710066), Nomakhosi Ndebele (671480),                %
+%             Ryan Robinson (453764),Timothy Rokebrand (458960)                %
+%                                                                              %
+%          This LaTeX document was adapted from the IEEE template,             %
+%                           which can be found at:                             %
+% http://www.ieee.org/conferences_events/conferences/publishing/templates.html %
+%                                                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[journal,comsoc,onecolumn]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Software Requirements Specification \\ \vspace{7mm} for \\ \vspace{7mm} The Online Postgraduate Application \\ Approval System for EIE}
+
+\author{\vspace{3mm} Julio Baeta (710066), Nomakhosi Ndebele (671480), Ryan Robinson (453764), Timothy Rokebrand (458960)\\ \small \vspace{2mm} School of Electrical \& Information Engineering, University of the Witwatersrand, Private Bag 3, 2050, Johannesburg, South Africa}
+
+\markboth{}{}
+
+\maketitle
+
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\tableofcontents
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+\IEEEpeerreviewmaketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\section{Introduction}
+
+\subsection{Purpose}
+This document serves as an overview of the online postgraduate application approval system project. It will review the requirements as set out by the course coordinator, as well as taking into consideration the current process in place, which is a highly inefficient paper-based one. This document will follow the standard as set out by the IEEE for the requirements of software-based systems.
+The efficiency of the postgraduate application system is of the utmost importance. Optimising this system will ensure that the application process proceeds in the smoothest possible fashion for students as well as being user-friendly for the administrative staff who will be making use of the system during the course of a student's application.
+The purpose of this project is to streamline the postgraduate application process within the School of Electrical and Information Engineering.
+
+\subsection{Target Audience}
+This document will serve to be of benefit to the following readers:
+
+\begin{itemize}
+	\item The software developers that will be implementing the designed system
+	\item Administrative staff at the University of the Witwatersrand who will be involved in the postgraduate application process 
+\end{itemize}
+	
+\subsection{Scope}	
+The project scope will extend to the following:
+
+\begin{itemize}
+\item The system will make use of an information database in conjunction with a text document database.
+\item The primary function of the designed software product will be to inform the student (following their application) as to whether they have been accepted into the postgraduate program or if they have been rejected in the fastest possible time.
+\item The designed product is intended to be solely used by the administrative staff involved in the application decision process.
+\end{itemize}
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Overall Description}
+
+\subsection{Product Perspective}
+The proposed system is to be used as an administrative tool to be used by the University of the Witwatersrand to form a link between the Student Information Management System (SIMS) and the School of Electrical and Information Engineering. A successful pilot project could then be further extended to other schools and faculties within the university.
+
+\subsection{Product Features}
+The proposed system will provide the following features and user functionality:
+
+\begin{itemize} 
+\item Retrieval of specific student information, such as contact details, place of residence address and person number.
+\item Retrieval of relevant student documentation, such as CVs, academic transcripts as well as a copy of their degree certificate.
+\item Allows for comments to be placed on final decisions.
+\item User-friendly interfaces allow for ease of access.
+\item Notify the relevant people throughout the course of the application process when their input is required, eg when a supervisor needs to submit his decision, they will be notified of this via a system-generate email.
+\item SIMS will automatically be notified of the final decision taken by the school at the end of the application decision process. This decision will then be communicated to the applying student via the student's email or some form  of student portal.
+\end{itemize}
+
+\subsection{Users of the Online Application System}
+There will be three primary users of the online application system. These three users will be:
+
+\begin{itemize}
+\item The postgraduate officer (currently Ms Mumtaz Adam within the School of Electrical and Information Engineering). This user will have wide access across the various web pages, but will not be able to access the decision-making section of the system.
+\item Supervisors (current lecturers within the school). These users will have access to only relevant student information of applicants who are interested in their field of specialty. The supervisors will have the authority to make decisions and comments, but will not be able to make any form of final decision.
+\item The postgraduate course coordinator (currently Professor Ivan Hofsajer). This user will have access to all aspects of any applying student's information. This user will also have the authority to extend on the comments that have already been made by the supervisors, as well as submitting the final decision to the application process.
+\end{itemize}
+
+\subsection{Operating Environment of the System}
+The environment in which the system will be run will be any form of web browser that is compatible with HTML5, HTTP/1.1 as well as CSS3. The browser will also need to support PHP, in order to form the link between the databases being used to store student information and the user interface.
+The system itself was programmed and tested in Linux. The hardware requirements of the system that will be running the online application system will be very basic, and most modern computers will be more than capable of running the system.
+
+\subsection{User Documentation}
+A basic user reference manual will be made available to anyone who intends to make use of the system.
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{System Features}
+
+\subsection{System Feature 1 - Preprogrammed Responses}
+When the postgraduate officer wishes to provide a comment as to why an application is unable to be processed, a list of pre-programmed responses will appear in the form of a drop-down menu. This will provide an easier way for the postgraduate officer to respond to generic problems that may be experienced when a student does not provide the necessary documentation and information.
+
+\subsection{System Feature 2 - Information Database Access}
+The information database will make use of the database management system MySQL. Through the use of this database, the administrative staff will be able to access various entries within the table that contains all applying students' information.
+
+\subsection{System Feature 3 - Documentation Database Access}
+
+The documentation database will use of the database management system Solr. As stated previously, the documentation database will store the student's relevant documentation. A form of full text searching feature will enable the user (postgraduate officer) to find certain documents using keywords in the fastest possible way.
+
+\subsection{System Segmentation (Isolated Modules)}
+Access is only granted to a member of the administrative staff when their input is required. This is a measure to ensure that time is not wasted on communication between the involved parties.
+
+\subsection{User Accessibility}
+The interface that will be viewed by the user will require very basic forms of input. It will thus be very simple to avoid any form of errors and miscommunications during the course of a student's application process.
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{External Interface Requirements}
+
+\subsection{Graphical User Interface (GUI)}
+The front end interface of the system will be designed to be as user friendly as possible. This will create the most efficient and streamlined environment so that the software involved in the application process will not result in the user having a negative experience.
+
+\subsection{Hardware Interfaces}
+There will be no form of hardware interface required to run the system, other than a standard desktop or laptop computer. In future, this hardware interface may be extended to include smart devices such as tablets or smartphones.
+
+\subsection{Software Interfaces}
+Any form of internet browser may be used to operate this system. This includes Mozilla Firefox, Google Chrome, Apple's Safari and in desperate situations, either Internet Explorer or Microsoft Edge can be used as well.
+
+\subsection{Communication Interfaces}
+The communication interface will make use of the University's current communication interfaces, as well as any other form of interface that may be specific to the School of Electrical and Information Engineering.
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Other Nonfunctional Requirements}
+
+\subsection{Performance Requirements}
+The performance of the software system needs to be optimised to ensure that processes are executed in the most efficient manner possible.
+
+\subsection{Safety Requirements}
+One particularly important safety feature of the system is that during the course of the decision making process of the student's application, none of the relevant student's information should be able to be changed on the University's primary database.
+
+\subsection{Security Requirements}
+The Most important security requirement of the system is that no aspect of it must be accessible in any form to anyone outside of the relevant administrative staff and the postgraduate staff within the School of Electrical and Information Engineering.
+
+\subsection{Software Quality Attributes}
+The user interface will create a very warm and friendly environment that all users should feel comfortable using. This will maximise productivity and reduce the amount of paper used in the postgraduate application process, thus making it an environmentally-friendly product.
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This software requirements specifications report was based on the specifications report given in reference 1:
+
+\begin{thebibliography}{1}
+
+\bibitem{PDFSplitAndMerge:Spyridonos}
+P.~Spyridonos (2010), \emph{Software Requirements Specification for PDF Split and Merge.} Available from: http://www.pdfsam.org/uploads/PDFsam-SRS-v2.1.0-EN.pdf. Last accessed 10th March 2016.
+
+\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

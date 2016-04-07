@@ -1,0 +1,17 @@
+create database students ;
+
+create table students.student_information (
+  `id` int not null auto_increment,
+  `name_and_surname` tinytext null,
+  `student_number` varchar(20) null,
+  `contact_number` varchar(20) null,
+  `potential_supervisor` tinytext null,
+  `undergraduate_university` tinytext null,
+  `program` tinytext null,
+  primary key (`id`));
+  
+insert into `students`.`student_information` (`id`, `name_and_surname`, `student_number`, `contact_number`, `potential_supervisor`, `undergraduate_university`, `program`) values ('1', 'Abraham De Villiers', '449876', '0825918764', 'Kenneth Nixon', 'WITS', 'MSc');
+insert into `students`.`student_information` (`id`, `name_and_surname`, `student_number`, `contact_number`, `potential_supervisor`, `undergraduate_university`, `program`) values ('2', 'Francois Du Plessis', '421888', '0836524879', 'Mercy Shuma-Iwisi', 'UJ', 'MEng');
+insert into `students`.`student_information` (`id`, `name_and_surname`, `student_number`, `contact_number`, `potential_supervisor`, `undergraduate_university`, `program`) values ('3', 'Kagiso Rabada', '528695', '0813336598', 'Anton Van Wyk', 'UCT', 'MSc');
+insert into `students`.`student_information` (`id`, `name_and_surname`, `student_number`, `contact_number`, `potential_supervisor`, `undergraduate_university`, `program`) values ('4', 'Imran Tahir', '771423', '0814458966', 'Olutayo Oyerinde', 'WITS', 'MEng');
+insert into `students`.`student_information` (`id`, `name_and_surname`, `student_number`, `contact_number`, `potential_supervisor`, `undergraduate_university`, `program`) values ('5', 'Quinton De Kock', '599874', '0725546895', 'Stephen Levitt', 'UNISA', 'MEng');
