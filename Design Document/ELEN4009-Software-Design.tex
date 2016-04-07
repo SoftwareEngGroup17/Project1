@@ -18,6 +18,7 @@
 \documentclass[journal,comsoc,onecolumn]{IEEEtran}
 \usepackage[T1]{fontenc}
 \usepackage{fancyhdr}
+\usepackage{graphicx}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -61,11 +62,17 @@ The software to be implemented for the Online Postgraduate Application system ca
 
 The user interface module of the system will be run through a web browser. This will be implemented by making use of the hypertext markup language HTML5. The styling of the various web pages, including different fonts and layouts, was achieved through the use of Cascading Style Sheets (CSS).
 
-\hfill \break The front-end of the software allows the user to navigate through a series of pages. These include a login page (where it will be established which user is viewing the system and hence what pages they are allowed to see), a homepage, an applicant list (where a list of all applicants to the postgraduate programme will be displayed) as well as an applicant information page (where all specific information pertaining to a particular student as well as access to their relevant documentation in PDF format will be displayed). Navigation through these pages is achieved through hyperlinks. All information displayed to the screen from the applicant list page and the applicant information page is obtained from the created databases. \break
+\hfill \break The front-end of the software allows the user to navigate through a series of pages. These include a login page (where it will be established which user is viewing the system and hence what pages they are allowed to see), a homepage, an applicant list (where a list of all applicants to the postgraduate programme will be displayed) as well as an applicant information page (where all specific information pertaining to a particular student as well as access to their relevant documentation in PDF format will be displayed). Navigation through these pages is achieved through hyperlinks. All information displayed to the screen from the applicant list page and the applicant information page is obtained from the created databases. 
 
-FLOW DIAGRAM
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"Front End - Flow Diagram"}
+	\caption{Front End - Flow Diagram}
+	\label{fig:FrontEnd-FlowDiagram}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 
 \subsection{THE BACK-END MODULE}
 
@@ -94,7 +101,13 @@ As stated above, this module makes use of two database management systems (DBMSs
 
 \hfill \break The front-end will request information from the information database in the form of select queries. The back-end will subsequently return the requested information of the student in question by extracting it from the student information table. The front-end will also be able to request certain documentation relevant to the student, and this was initially planned to be achieved through the Solr database management system. However, this was not achieved in the final system produced, since the PDFs are actually accessed through the project's directory for the final product.
 
-\break FLOW DIAGRAM
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.7\linewidth]{"Back End - Flow Diagram"}
+\caption{Back End - Flow Diagram}
+\label{fig:BackEnd-FlowDiagram}
+\end{figure}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
