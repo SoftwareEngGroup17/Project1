@@ -1,0 +1,926 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  11 APR 2016 00:36
+entering extended mode
+**./Online-Postgraduate-Application-System.tex
+(Online-Postgraduate-Application-System.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+(IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) (C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip44
+\f@ncyO@elh=\skip45
+\f@ncyO@erh=\skip46
+\f@ncyO@olh=\skip47
+\f@ncyO@orh=\skip48
+\f@ncyO@elf=\skip49
+\f@ncyO@erf=\skip50
+\f@ncyO@olf=\skip51
+\f@ncyO@orf=\skip52
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count94
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(Online-Postgraduate-Application-System.aux)
+\openout1 = `Online-Postgraduate-Application-System.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+
+-- Lines per column: 58 (exact).
+(C:\Users\Ryan\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count95
+\scratchdimen=\dimen128
+\scratchbox=\box28
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen129
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks17
+) [1{C:/Users/Ryan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+] [2]
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 174--175
+ \OT1/ptm/m/it/10 1) Pur-pose: [][] \OT1/ptm/m/n/10 The main pur-pose of this p
+ost-grad-u-ate
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 174--175
+\OT1/ptm/m/n/10 ap-pli-ca-tion pro-cess pro-ceeds in the smoothest pos-si-ble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+ \OT1/ptm/m/it/10 2) Tar-get Au-di-ence: [][] \OT1/ptm/m/n/10 There are three i
+n-di-vid-u-als
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 178--179
+\OT1/ptm/m/n/10 prod-uct will be to in-form the stu-dent (fol-low-ing their
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+Missing character: There is no ‚ in font ptmri7t!
+Missing character: There is no Ä in font ptmri7t!
+Missing character: There is no ì in font ptmri7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+Missing character: There is no ‚ in font ptmri7t!
+Missing character: There is no Ä in font ptmri7t!
+Missing character: There is no ì in font ptmri7t!
+
+Underfull \hbox (badness 1571) in paragraph at lines 191--192
+ \OT1/ptm/m/it/10 1) Sys-tem Fea-ture 2 Sys-tem Seg-men-ta-tion: [][] \OT1/ptm/
+m/n/10 Ac-cess is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+Missing character: There is no ‚ in font ptmri7t!
+Missing character: There is no Ä in font ptmri7t!
+Missing character: There is no ì in font ptmri7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+[4
+
+]
+Underfull \hbox (badness 3803) in paragraph at lines 204--205
+[]\OT1/ptm/m/n/10 The front-end was cre-ated us-ing var-i-ous web-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Underfull \hbox (badness 1454) in paragraph at lines 230--231
+\OT1/ptm/m/n/10 the text-book ``Be-gin-ning Soft-ware En-gi-neer-ing" by Rod
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 242--243
+ \OT1/ptm/m/it/10 6) Sixth Sprint Plan-ning meet-ing (29 March): [][] \OT1/ptm/
+m/n/10 The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--297
+
+ []
+
+[7] [8
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 336.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 336.
+ [9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+\OT1/ptm/m/n/10 SELECT * FROM stu-dent[]information WHERE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 385--386
+\OT1/ptm/m/n/10 This will en-sure that su-per-vi-sors only have ac-cess to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 387--388
+\OT1/ptm/m/n/10 SELECT * FROM stu-dent[]information WHERE id =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+\OT1/ptm/m/n/10 UPDATE stu-dent[]information SET ap-proval sta-tus =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 393--395
+\OT1/ptm/m/n/10 re-quests, which fur-ther en-hances the porta-bil-ity of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
+
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 409--411
+ \OT1/ptm/m/it/10 2) 26th of Febru-ary: [][] \OT1/ptm/m/n/10 Once the ap-pro-pr
+i-ate soft-ware
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 409--411
+\OT1/ptm/m/n/10 lan-guage for the in-for-ma-tion database (SQL) and the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--426
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--431
+
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 434--435
+\OT1/ptm/m/n/10 mod-ules of the sys-tem. This there-fore en-tailed fur-ther
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--463
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 466--468
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--473
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--478
+
+ []
+
+
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 505--506
+\OT1/ptm/m/n/10 rel-e-vant de-tails could be en-tered into the in-for-ma-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
+[]\OT1/ptm/m/n/10 insert into `stu-dents`.`student[]information` (`id`,
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 507--508
+\OT1/ptm/m/n/10 `name[]and[]surname`, `stu-dent[]number`, `con-tact[]number`,
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 507--508
+\OT1/ptm/m/n/10 `ap-proval sta-tus`) val-ues ('1', 'Abra-ham De Vil-liers',
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 513--514
+[]\OT1/ptm/m/n/10 In or-der to check whether up-dat-ing of a stu-dent's
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 513--514
+\OT1/ptm/m/n/10 in-for-ma-tion could be per-formed cor-rectly, the fol-low-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
+[]\OT1/ptm/m/n/10 update stu-dents.student[]information set
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
+
+ []
+
+[13
+
+] [14
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
+\OT1/ptm/m/n/8 rankings-articles/brics-rankings/top-10-universities-south-afric
+a-2015.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--565
+\OT1/ptm/m/n/8 wits.ac.za. Re-trieved from https://www.wits.ac.za/registration/
+new-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
+[]\OT1/ptm/m/n/8 Professor E. Otoo, \OT1/ptm/m/it/8 Ag-ile Soft-ware De-vel-op-
+ment: SCRUM\OT1/ptm/m/n/8 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
+\OT1/ptm/m/n/8 ELEN4009 - 2016 Course Notes. Re-trieved from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
+[]\OT1/ptm/m/n/8 M. Rouse, \OT1/ptm/m/it/8 PHP (Hy-per-text Pre-pro-ce-sor)\OT1
+/ptm/m/n/8 , SearchEn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
+\OT1/ptm/m/n/8 ter-priseLinux, Novem-ber 2006. [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--582
+[]\OT1/ptm/m/n/8 T. Steidler-Dennison, \OT1/ptm/m/it/8 LAMP lights the web\OT1/
+ptm/m/n/8 , Is-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--582
+\OT1/ptm/m/n/8 sue 3. Red Hat, Jan-uary 2005. Re-trieved from
+ []
+
+
+Underfull \hbox (badness 8056) in paragraph at lines 585--586
+\OT1/ptm/m/n/8 Avali-able from: http://blog.comperiosearch.com/blog/2015/04/14/
+solr-
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 590--592
+[]\OT1/ptm/m/n/8 K. Tan, \OT1/ptm/m/it/8 Ba-sic Solr Con-cepts\OT1/ptm/m/n/8 , 
+Sol-r-Tu-to-rial.com Spon-sored
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--592
+\OT1/ptm/m/n/8 by Flex-ile Ver-ti-cal Search Crawler, 2016. Re-trieved from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--592
+\OT1/ptm/m/n/8 http://www.solrtutorial.com/basic-solr-concepts.html. Last ac-ce
+ssed
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 594--596
+[]\OT1/ptm/m/n/8 Apache, \OT1/ptm/m/it/8 Apache Solr Ref-er-ence Guide Cov-er-i
+ng Apache Solr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+[]\OT1/ptm/m/n/8 Web De-vel-op-ment, \OT1/ptm/m/it/8 The Ba-sics of Pass-ing Va
+l-ues From
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 597--598
+\OT1/ptm/m/it/8 JavaScript to PHP and Back\OT1/ptm/m/n/8 , Coders Lex-i-con, Av
+ali-able from:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+\OT1/ptm/m/n/8 http://www.coderslexicon.com/the-basics-of-passing-values-from-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
+[]\OT1/ptm/m/n/8 C. Tar-gett, \OT1/ptm/m/it/8 Up-load-ing Data with Solr Cell u
+s-ing Apache
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
+\OT1/ptm/m/it/8 Tika\OT1/ptm/m/n/8 , The Apache Soft-ware Foun-da-tion, Avali-a
+ble from:
+ []
+
+[15
+
+
+] <GanttChart.jpg, id=54, 654.94687pt x 493.0922pt>
+File: GanttChart.jpg Graphic file (type jpg)
+ <use GanttChart.jpg>
+Package pdftex.def Info: GanttChart.jpg used on input line 613.
+(pdftex.def)             Requested size: 361.19843pt x 271.93889pt.
+
+[16
+
+ <./GanttChart.jpg>] <loginpage.jpeg, id=58, 979.40906pt x 539.01375pt>
+File: loginpage.jpeg Graphic file (type jpg)
+
+<use loginpage.jpeg>
+Package pdftex.def Info: loginpage.jpeg used on input line 628.
+(pdftex.def)             Requested size: 361.19843pt x 198.78221pt.
+ <home.jpeg, id=59, 977.15062pt x 545.78906pt>
+File: home.jpeg Graphic file (type jpg)
+
+<use home.jpeg>
+Package pdftex.def Info: home.jpeg used on input line 635.
+(pdftex.def)             Requested size: 361.19843pt x 201.74724pt.
+ <list.jpeg, id=60, 978.65625pt x 536.75531pt>
+File: list.jpeg Graphic file (type jpg)
+ <use list.jpeg>
+Package pdftex.def Info: list.jpeg used on input line 642.
+(pdftex.def)             Requested size: 361.19843pt x 198.10493pt.
+
+<information.jpeg, id=61, 887.56593pt x 557.83406pt>
+File: information.jpeg Graphic file (type jpg)
+ <use information.jpeg>
+Package pdftex.def Info: information.jpeg used on input line 649.
+(pdftex.def)             Requested size: 361.19843pt x 227.01106pt.
+
+<mysql.jpeg, id=62, 1106.1325pt x 187.70125pt>
+File: mysql.jpeg Graphic file (type jpg)
+ <use mysql.jpeg>
+Package pdftex.def Info: mysql.jpeg used on input line 656.
+(pdftex.def)             Requested size: 361.19843pt x 61.29144pt.
+ [17
+
+ <./loginpage.jpeg> <./home.jpeg>] [18 <./list.jpeg> <./information.jpeg> <./my
+sql.jpeg>]
+(Online-Postgraduate-Application-System.aux) ) 
+Here is how much of TeX's memory you used:
+ 2120 strings out of 493634
+ 33662 string characters out of 3141317
+ 99390 words of memory out of 3000000
+ 5532 multiletter control sequences out of 15000+200000
+ 34672 words of font info for 64 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 30i,10n,43p,1084b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.
+9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
+rw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/ut
+mbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Online-Postgraduate-Application-System.pdf (18 pages, 840733 
+bytes).
+PDF statistics:
+ 87 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
